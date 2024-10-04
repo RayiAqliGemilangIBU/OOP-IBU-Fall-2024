@@ -6,11 +6,11 @@
 
 // 1. Create a program that prints your name to the screen.
 
-public class Main {
-   public static void main(String[] args){
-       System.out.println("My name is Rayi Aqli Gemilang");
-   }
-}
+// public class Main {
+//    public static void main(String[] args){
+//        System.out.println("My name is Rayi Aqli Gemilang");
+//    }
+// }
 
 // 2. Create a program that prints out the following:
 // (print hello world and new line)
