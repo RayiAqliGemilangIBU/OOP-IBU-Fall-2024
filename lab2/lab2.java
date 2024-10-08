@@ -73,28 +73,30 @@ public class lab2 {
 // If the first number is greater than the last number, the 
 // program prints those numbers. 
 
-public static void main(String[] args){
-    Scanner input = new Scanner(System.in);
-    System.out.println("input first Number = ");
-    int fNum = input.nextInt();
-    System.out.println("input second Number = ");
-    int sNum = input.nextInt();
-    int sum = 0;
+// public static void main(String[] args){
+//     Scanner input = new Scanner(System.in);
+//     System.out.println("input first Number = ");
+//     int fNum = input.nextInt();
+//     System.out.println("input second Number = ");
+//     int sNum = input.nextInt();
+//     int sum = 0;
     
 
-    if (fNum > sNum){
-        System.out.println("fNum");
-    } else {
-        while (fNum < (sNum-1)){
-            fNum++;
-            sum += fNum;
-        }
-    }
+//     if (fNum > sNum){
+//         System.out.println("fNum");
+//     } else {
+//         while (fNum < (sNum-1)){
+//             fNum++;
+//             sum += fNum;
+//         }
+//     }
 
-    System.out.println(sum);
+//     System.out.println(sum);
 
-}
+// }
  
+
+
 
 
 
