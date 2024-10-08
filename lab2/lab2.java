@@ -66,6 +66,34 @@ public class lab2 {
 //     }
 //     System.out.println("Sum of your numbers = "+ sum);
 // }
+
+// 4. Create a program that asks the user for the first
+//  number and the last number and then prints all numbers
+//   between those two. Use a while loop.
+// If the first number is greater than the last number, the 
+// program prints those numbers. 
+
+public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    System.out.println("input first Number = ");
+    int fNum = input.nextInt();
+    System.out.println("input second Number = ");
+    int sNum = input.nextInt();
+    int sum = 0;
+    
+
+    if (fNum > sNum){
+        System.out.println("fNum");
+    } else {
+        while (fNum < (sNum-1)){
+            fNum++;
+            sum += fNum;
+        }
+    }
+
+    System.out.println(sum);
+
+}
  
 
 
