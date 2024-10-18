@@ -1,20 +1,41 @@
 package lab3;
 
-import lab3.tas;
+import lab3.enums.TaskStatus;
+
 
 public class TaskItem {
-    private int taskId;
-    private String taskDescription;
+    private int id;
+    private String description;
     private TaskStatus status;
 
-    public TaskItem(int id, String description, Task)
 
+    public TaskItem(int id, String description, TaskStatus status) {
+        this.id = id;
+        this.description = description;
+        this.status = status;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public TaskStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(TaskStatus status) {
+        this.status = status;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
-
-
-Your task is to design a class named TaskItem
- which should have three attributes:
-//  taskId (an integer representing a unique identifier for each task), 
-//  taskDescription (a string describing the task),
-//  taskStatus (an enum representing the status of the task with values such as TO_DO, IN_PROGRESS, COMPLETED, and CANCELLED). 
-
