@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 import lab3.TaskItem;
-import lab3.enums.*;
+import lab3.enums.TaskStatus;
 
 public class DataStructures {
     private List<TaskItem> tasks;
