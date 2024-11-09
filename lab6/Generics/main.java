@@ -23,4 +23,6 @@ public class main {
         System.out.println("Reversed colors: " + reversedWords);
 
     }
+
+
 }
