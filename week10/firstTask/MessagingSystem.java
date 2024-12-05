@@ -1,9 +1,14 @@
 package week10.firstTask;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 public class MessagingSystem {
 
     @CanSendMessage
-    @RequiresPermission(2)
+    @RequiresPermission(1)
     public void sendMessage(Admin user, String message) {
         System.out.println("Message sent by user " + user.getUsername() + ": " + message);
     }
@@ -22,3 +27,5 @@ public class MessagingSystem {
         messagingSystem.sendMessage(privilegedUser, "Hi there!");
     }
 }
+
+
